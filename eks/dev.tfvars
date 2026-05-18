@@ -10,6 +10,7 @@ pri-subnet-count      = 3
 pri-cidr-block        = ["10.16.128.0/20", "10.16.144.0/20", "10.16.160.0/20"]
 pri-availability-zone = ["us-east-1a", "us-east-1b", "us-east-1c"]
 pri-sub-name          = "subnet-private"
+pub-sub-name          = "subnet-public"
 public-rt-name        = "public-route-table"
 private-rt-name       = "private-route-table"
 eip-name              = "elasticip-ngw"
